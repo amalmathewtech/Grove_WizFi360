@@ -3,6 +3,7 @@
 import serial, time
 import sys
 
+#change serail port number accordingly 
 wizfi360 = serial.Serial("COM8",  115200, timeout=0)
 
 
